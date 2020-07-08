@@ -1,0 +1,62 @@
+@import url("fonts.css");
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: NotoSansKR, sans-serif;
+  color: rgb(34, 34, 34);
+}
+
+/*login*/
+.login-body {
+  background-color: #f5f7fb;
+}
+.login-container {
+  margin-top: 10rem;
+  padding: 3rem;
+}
+.login-container .col-sm {
+  display: flex;
+  justify-content: center;
+}
+.login-container img {
+  width: 109px;
+  margin-bottom: 32px;
+}
+.login-form {
+  border: 1px solid #dfdfdf;
+  background-color: #ffffff;
+  padding: 32px;
+  width: 358px;
+}
+.login-form .form-check {
+  padding: 0;
+}
+.login-form .form-check a {
+  color: #9e9e9e;
+  font-size: 14px;
+}
+.login-form button {
+  width: 100%;
+  background-color: #02204a;
+  font-size: 14px;
+  border-radius: 0;
+}
+.login-p {
+  font-size: 18px;
+  color: #495057;
+  font-weight: 500;
+}
+.login-form label {
+  font-size: 14px;
+  color: #495057;
+  font-weight: 700;
+}
+.login-form input {
+  border: 1px solid #dfdfdf;
+  border-radius: 0;
+}
+.form-group {
+  margin-bottom: 1.3rem;
+}

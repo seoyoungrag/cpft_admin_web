@@ -1,0 +1,23 @@
+server:
+  port: 81
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 465
+    username: youngrag.seo@timf.co.kr
+    password: ENC(ugjxZQzqq12NeN4Cezqr5D2O7cnanx+w)
+    protocol: smtp
+    default-encoding: UTF-8
+    properties:
+      mail.smtp:
+        auth: true
+        starttls.enable: true
+        ssl.enable: true
+  messages:
+    basename: i18n/exception
+    encoding: UTF-8
+  jwt:
+    secret: timflabs
+jasypt:
+  encryptor:
+    bean: jasyptStringEncryptor

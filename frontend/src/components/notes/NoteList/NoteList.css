@@ -1,0 +1,11 @@
+.note-list .title {
+  border-bottom: 1px solid #adb5bd;
+  padding-bottom: 0.75rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.note-list .note-item + .note-item {
+  margin-top: 1rem;
+}

@@ -1,0 +1,31 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.form .title {
+  border-bottom: 1px solid #343a40;
+  padding-bottom: 0.75rem;
+
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.form input {
+  margin-top: 0.75rem;
+  height: 2.5rem;
+  border: 1px solid #dee2e6;
+  border-radius: 2px;
+
+  outline: none;
+
+  font-size: 1.5rem;
+  padding: 0.25rem;
+
+  background: #adb5db;
+
+  color: white;
+  font-weight: 600;
+
+  flex: 1;
+}

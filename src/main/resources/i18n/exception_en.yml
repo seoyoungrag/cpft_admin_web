@@ -1,0 +1,28 @@
+unKnown:
+  code: "-9999"
+  msg: "An unknown error has occurred."
+userNotFound:
+  code: "-1000"
+  msg: "This member not exist"
+passwordNotMatched:
+  code: "-1001"
+  msg: "Password is incorrect."
+entryPointException:
+  code: "-1002"
+  msg: "You do not have permission to access this resource."
+accessDenied:
+  code:"-1003"
+  msg:"A resource that can not be accessed with the privileges it has."
+notOwner:
+  code: "-1006"
+  msg: "You are not the owner of this resource."
+resourceNotExist:
+  code: "-1007"
+  msg: "This resource does not exist."
+userLoginIdDuplicated:
+  code: "-1008"
+  msg: "이미 가입한 로그인 아이디가 있습니다."
+userEmailDuplicated:
+  code: "-1009"
+  msg: "이미 가입한 이메일이 있습니다."
+  

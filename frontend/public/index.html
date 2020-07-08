@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+ <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+   name="viewport"
+   content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>화주플랫폼_운송사</title>
+ </head>
+
+ <body id="page-top">
+  <noscript>
+   You need to enable JavaScript to run this app.
+  </noscript>
+  <div id="root"></div>
+  <script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+  <script>
+   function attachJiraIssueColletor() {
+    const script1 = document.createElement("script");
+    script1.id = "script1";
+    script1.src =
+     "https://jira.teamfresh.co.kr/s/d41d8cd98f00b204e9800998ecf8427e-CDN/ndvrd9/808001/6411e0087192541a09d88223fb51a6a0/2.2.4.7/_/download/batch/com.atlassian.plugins.jquery:jquery/com.atlassian.plugins.jquery:jquery.js?collectorId=38ac04fb";
+    script1.async = true;
+
+    const script2 = document.createElement("script");
+    script2.id = "script2";
+    script2.src =
+     "https://jira.teamfresh.co.kr/s/55d04a80adb58a1223c33bc1de60bbed-T/ndvrd9/808001/6411e0087192541a09d88223fb51a6a0/4.0.0/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=ko-KR&collectorId=38ac04fb";
+    script2.async = true;
+    if (document.getElementById("script1")) {
+     document.getElementById("script1").remove();
+    }
+    if (document.getElementById("script2")) {
+     document.getElementById("script2").remove();
+    }
+    if (document.getElementById("atlwdg-trigger")) {
+     document.getElementById("atlwdg-trigger").remove();
+    }
+    if (document.getElementById("atlwdg-blanket")) {
+     document.getElementById("atlwdg-blanket").remove();
+    }
+    if (document.getElementById("atlwdg-container")) {
+     document.getElementById("atlwdg-container").remove();
+    }
+    document.body.appendChild(script1);
+    document.body.appendChild(script2);
+   }
+  </script>
+ </body>
+</html>

@@ -1,0 +1,49 @@
+.note-item {
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  background: #adb5bd;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  cursor: pointer;
+}
+
+.note-item .note {
+  color: white;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.note-item .delete {
+  margin-left: auto;
+  cursor: pointer;
+  color: white;
+  font-weight: 800;
+  font-size: 2rem;
+  user-select: none;
+}
+
+.note-item .return {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  cursor: pointer;
+  color: white;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.note-item input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  background: #868e96;
+  border: 1px solid #868e96;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 600;
+}
+
+.editing {
+  background: #868e96;
+}

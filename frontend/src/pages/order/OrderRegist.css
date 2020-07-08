@@ -1,0 +1,174 @@
+/*! CSS Used from: Embedded */
+svg:not(:root).svg-inline--fa {
+ overflow: visible;
+}
+.svg-inline--fa {
+ display: inline-block;
+ font-size: inherit;
+ height: 1em;
+ overflow: visible;
+ vertical-align: -0.125em;
+}
+
+/*! CSS Used from: Embedded */
+svg:not(:root).svg-inline--fa {
+ overflow: visible;
+}
+.svg-inline--fa {
+ display: inline-block;
+ font-size: inherit;
+ height: 1em;
+ overflow: visible;
+ vertical-align: -0.125em;
+}
+/*! CSS Used from: https://themes.startbootstrap.com/sb-admin-pro/css/styles.css */
+
+ul {
+ margin-top: 0;
+ margin-bottom: 1rem;
+}
+
+svg {
+ overflow: hidden;
+ vertical-align: middle;
+}
+label {
+ display: inline-block;
+ margin-bottom: 0.5rem;
+}
+
+.
+
+
+
+
+
+.nav-link:hover,
+.nav-link:focus {
+ text-decoration: none;
+}
+.nav-tabs {
+ border-bottom: 1px solid #d7dce3;
+}
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link:focus {
+ border-color: #e3e6ec #e3e6ec #d7dce3;
+}
+.tab-content > .tab-pane {
+ display: none;
+}
+.tab-content > .active {
+ display: block;
+}
+
+
+
+/*! right sav */
+/*! CSS Used from: https://themes.startbootstrap.com/sb-admin-pro/css/styles.css */
+ul {
+ margin-top: 0;
+ margin-bottom: 1rem;
+}
+.nav-link:hover,
+.nav-link:focus {
+ text-decoration: none;
+}
+
+
+/*! CSS Used from: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css */
+mark {
+ color: #000;
+ background: #ff0;
+}
+@media print {
+ *,
+ :after,
+ :before {
+  color: #000 !important;
+  text-shadow: none !important;
+  background: 0 0 !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+ }
+}
+:after,
+:before {
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+}
+mark {
+ padding: 0.2em;
+ background-color: #fcf8e3;
+}
+ul {
+ margin-top: 0;
+ margin-bottom: 10px;
+}
+/*! CSS Used from: https://cdnjs.cloudflare.com/ajax/libs/awesomplete/1.1.0/awesomplete.min.css */
+div.awesomplete > ul {
+ position: absolute;
+ /*min-width: 100%;*/
+ width: inherit;
+ box-sizing: border-box;
+ list-style: none;
+ padding: 0;
+ border-radius: 0.3em;
+ margin: 0.2em 0 0;
+ background: hsla(0, 0, 100%, 0.9);
+ background: linear-gradient(to bottom right, white, hsla(0, 0, 100%, 0.8));
+ border: 1px solid rgba(0, 0, 0, 0.3);
+ box-shadow: 0.05em 0.2em 0.6em rgba(0, 0, 0, 0.2);
+ text-shadow: none;
+ background: white;
+ z-index: 999999;
+}
+div.awesomplete > ul:empty {
+ display: none;
+}
+div.awesomplete > ul:before {
+ content: "";
+ position: absolute;
+ top: -0.43em;
+ left: 1em;
+ width: 0;
+ height: 0;
+ padding: 0.4em;
+ background: white;
+ border: inherit;
+ border-right: 0;
+ border-bottom: 0;
+ -webkit-transform: rotate(45deg);
+ transform: rotate(45deg);
+}
+div.awesomplete > ul > li {
+ position: relative;
+ padding: 0.2em 0.5em;
+ cursor: pointer;
+}
+div.awesomplete > ul > li:hover {
+ background: hsl(200, 40%, 80%);
+ color: black;
+}
+div.awesomplete > ul > li[aria-selected="true"] {
+ background: hsl(205, 40%, 40%);
+ color: white;
+}
+div.awesomplete mark {
+ background: hsl(65, 100%, 50%);
+}
+div.awesomplete li:hover mark {
+ background: hsl(68, 100%, 41%);
+}
+div.awesomplete li[aria-selected="true"] mark {
+ background: hsl(86, 100%, 21%);
+ color: inherit;
+}
+/*! CSS Used from: Embedded */
+.input-group div.awesomplete > ul {
+ z-index: 3;
+}
+div.awesomplete {
+ width: 90%;
+ display: none;
+}

@@ -1,0 +1,15 @@
+@import "~open-color/open-color";
+@import "~include-media/dist/include-media";
+
+small {
+  width: 320px;
+}
+medium {
+  width: 768px;
+}
+large {
+  width: 1024px;
+}
+wide {
+  width: 1400px;
+}

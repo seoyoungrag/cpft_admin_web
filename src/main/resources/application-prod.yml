@@ -1,0 +1,42 @@
+logging:
+  file:
+    max-history: 7
+    path: \\logs\\cadmin
+  level:
+    root: warn
+    kr.co.teamfresh.cpft.capi: debug
+    org.hibernate:
+      sql: debug
+      type.descriptor.sql: trace
+    com.zaxxer.hikari: info
+    com.baroservice: trace
+    javax.jws: trace
+    org.springframework.ws.server.MessageTracing: trace
+    org.springframework.ws: trace
+    org.springframework.cache: trace
+    com.sun.xml.ws.transport.http.client.HttpTransportPipe: debug
+spring:
+  profiles: prod
+  redis:
+    host: localhost
+    port: 6379
+  datasource:
+    url: jdbc:h2:~/test;IGNORECASE=TRUE;DB_CLOSE_ON_EXIT=TRUE;FILE_LOCK=NO
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: yrseo
+    hikari:
+      pool-name: hikari-cp
+      maximum-pool-size: 30
+      minimum-idle: 2
+      data-source-properties:
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create-drop
+      naming.physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    showSql: true
+    properties:
+      hibernate:
+        globally_quoted_identifiers: true
+        
