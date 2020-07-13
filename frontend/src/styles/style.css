@@ -4,8 +4,6 @@ html,
 body {
   height: 100%;
   width: 100%;
-  font-family: NotoSansKR, sans-serif;
-  color: rgb(34, 34, 34);
 }
 
 /*login*/
@@ -58,5 +56,10 @@ body {
   border-radius: 0;
 }
 .form-group {
-  margin-bottom: 1.3rem;
+  /*margin-bottom: 1.3rem;*/
+}
+/*! CSS Used from: https://jsfiddle.net/css/normalize.css?fc7b59b5dd7cab298927d3310be1b86d6bb01b3f */
+* {
+ text-rendering: optimizeLegibility;
+ -moz-osx-font-smoothing: grayscale;
 }

@@ -1,13 +1,13 @@
 logging:
   file:
     max-history: 7
-    path: \\logs\\cadmin
+    path: /logs/cpft_admin_web
   level:
-    root: warn
-    kr.co.teamfresh.cpft.capi: debug
+    root: info
+    kr.co.teamfresh.cpft.carrier.web.backend: debug
     org.hibernate:
       sql: debug
-      type.descriptor.sql: trace
+#      type.descriptor.sql: trace
     com.zaxxer.hikari: info
     com.baroservice: trace
     javax.jws: trace
@@ -15,13 +15,17 @@ logging:
     org.springframework.ws: trace
     org.springframework.cache: trace
     com.sun.xml.ws.transport.http.client.HttpTransportPipe: debug
+    org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod: debug
+    org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver: debug
+    #org.hibernate.resource.jdbc.internal.ResourceRegistryStandardImpl: trace
+    org.hibernate.type.descriptor.sql.BasicExtractor: debug
 spring:
   profiles: prod
   redis:
     host: localhost
     port: 6379
   datasource:
-    url: jdbc:h2:~/test;IGNORECASE=TRUE;DB_CLOSE_ON_EXIT=TRUE;FILE_LOCK=NO
+    url: jdbc:h2:~/test;IGNORECASE=TRUE;DB_CLOSE_ON_EXIT=TRUE;AUTO_SERVER=TRUE;
     driver-class-name: org.h2.Driver
     username: sa
     password: yrseo
@@ -35,7 +39,7 @@ spring:
     hibernate:
       ddl-auto: create-drop
       naming.physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-    showSql: true
+    showSql: false
     properties:
       hibernate:
         globally_quoted_identifiers: true

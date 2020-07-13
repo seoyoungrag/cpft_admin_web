@@ -22,53 +22,20 @@ svg:not(:root).svg-inline--fa {
  vertical-align: -0.125em;
 }
 /*! CSS Used from: https://themes.startbootstrap.com/sb-admin-pro/css/styles.css */
-
-ul {
- margin-top: 0;
- margin-bottom: 1rem;
-}
-
-svg {
- overflow: hidden;
- vertical-align: middle;
-}
-label {
- display: inline-block;
- margin-bottom: 0.5rem;
-}
-
-.
-
-
-
-
-
 .nav-link:hover,
 .nav-link:focus {
  text-decoration: none;
 }
-.nav-tabs {
- border-bottom: 1px solid #d7dce3;
-}
 .nav-tabs .nav-link:hover,
 .nav-tabs .nav-link:focus {
  border-color: #e3e6ec #e3e6ec #d7dce3;
-}
-.tab-content > .tab-pane {
- display: none;
-}
-.tab-content > .active {
- display: block;
 }
 
 
 
 /*! right sav */
 /*! CSS Used from: https://themes.startbootstrap.com/sb-admin-pro/css/styles.css */
-ul {
- margin-top: 0;
- margin-bottom: 1rem;
-}
+
 .nav-link:hover,
 .nav-link:focus {
  text-decoration: none;
@@ -91,19 +58,10 @@ mark {
   box-shadow: none !important;
  }
 }
-:after,
-:before {
- -webkit-box-sizing: border-box;
- -moz-box-sizing: border-box;
- box-sizing: border-box;
-}
+
 mark {
  padding: 0.2em;
  background-color: #fcf8e3;
-}
-ul {
- margin-top: 0;
- margin-bottom: 10px;
 }
 /*! CSS Used from: https://cdnjs.cloudflare.com/ajax/libs/awesomplete/1.1.0/awesomplete.min.css */
 div.awesomplete > ul {

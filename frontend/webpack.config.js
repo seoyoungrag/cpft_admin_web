@@ -79,7 +79,7 @@ module.exports = {
   open: true,
   proxy: {
    "/v1": {
-    target: "http://localhost:81",
+    target: "http://localhost",
     secure: false,
     changeOrigin: true,
    },

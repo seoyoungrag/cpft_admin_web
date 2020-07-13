@@ -8,16 +8,6 @@
 }
 
 /*! CSS Used from: https://themes.startbootstrap.com/sb-admin-pro/css/styles.css */
-
-main {
- display: block;
-}
-h1,
-h5,
-h6 {
- margin-top: 0;
- margin-bottom: 0.5rem;
-}
 p {
  margin-top: 0;
  margin-bottom: 1rem;
@@ -38,41 +28,6 @@ pre {
  margin-bottom: 1rem;
  overflow: auto;
 }
-img {
- vertical-align: middle;
- border-style: none;
-}
-
-input[type="radio"],
-input[type="checkbox"] {
- box-sizing: border-box;
- padding: 0;
-}
-textarea {
- overflow: auto;
- resize: vertical;
-}
-h1,
-h5,
-h6 {
- margin-bottom: 0.5rem;
- font-weight: 500;
- line-height: 1.2;
- color: #323f52;
-}
-h1 {
- font-size: 1.5rem;
-}
-h5 {
- font-size: 1.1rem;
-}
-h6 {
- font-size: 1rem;
-}
-.small {
- font-size: 0.875em;
- font-weight: 400;
-}
 code {
  font-size: 87.5%;
  color: #e30059;
@@ -87,13 +42,6 @@ pre code {
  font-size: inherit;
  color: inherit;
  word-break: normal;
-}
-.container-fluid {
- width: 100%;
- padding-right: 0.75rem;
- padding-left: 0.75rem;
- margin-right: auto;
- margin-left: auto;
 }
 .no-gutters {
  margin-right: 0;
@@ -140,33 +88,6 @@ pre code {
 
 select.form-control[multiple] {
  height: auto;
-}
-textarea.form-control {
- height: auto;
-}
-.form-group {
- margin-bottom: 1rem;
-}
-.btn-secondary {
- color: #fff;
- background-color: #6900c7;
- border-color: #6900c7;
-}
-.btn-secondary:hover {
- color: #fff;
- background-color: #5500a1;
- border-color: #4e0094;
-}
-.btn-secondary:focus {
- color: #fff;
- background-color: #5500a1;
- border-color: #4e0094;
- box-shadow: 0 0 0 0.2rem rgba(128, 38, 207, 0.5);
-}
-.btn-secondary:disabled {
- color: #fff;
- background-color: #6900c7;
- border-color: #6900c7;
 }
 .btn-sm {
  padding: 0.25rem 0.5rem;
@@ -259,65 +180,18 @@ textarea.form-control {
   transition: none;
  }
 }
-.nav-tabs {
- border-bottom: 1px solid #d7dce3;
-}
-.tab-content > .active {
- display: block;
-}
 
 .card-title {
  margin-bottom: 1rem;
 }
-.mr-1 {
- margin-right: 0.25rem !important;
-}
-.mt-n10 {
- margin-top: -6rem !important;
-}
-.py-5 {
- padding-top: 3rem !important;
-}
-.py-5 {
- padding-bottom: 3rem !important;
-}
-.pb-10 {
- padding-bottom: 6rem !important;
-}
-.mt-n10 {
- margin-top: -6rem !important;
-}
 .text-orange {
  color: #f76400 !important;
-}
-.text-muted {
- color: #a2acba !important;
 }
 .text-white-50 {
  color: rgba(255, 255, 255, 0.5) !important;
 }
-.container-fluid {
- padding-left: 1.5rem;
- padding-right: 1.5rem;
-}
-.bg-gradient-primary-to-secondary {
- background-color: #0061f2;
- background-image: linear-gradient(
-  135deg,
-  #0061f2 0%,
-  rgba(105, 0, 199, 0.8) 100%
- );
-}
 .font-weight-500 {
  font-weight: 500 !important;
-}
-.btn {
- display: -webkit-inline-box;
- display: inline-flex;
- -webkit-box-align: center;
- align-items: center;
- -webkit-box-pack: center;
- justify-content: center;
 }
 .btn .feather {
  height: 1rem;
@@ -341,84 +215,6 @@ textarea.form-control {
  height: 3rem;
  width: 3rem;
 }
-.page-header .page-header-content {
- padding-top: 2rem;
- padding-bottom: 2rem;
-}
-.page-header .page-header-content .page-header-title {
- line-height: normal;
- font-size: 2.25rem;
- font-weight: 500;
- display: -webkit-box;
- display: flex;
- -webkit-box-align: center;
- align-items: center;
- margin-bottom: 0.5rem;
-}
-.page-header .page-header-content .page-header-title .page-header-icon {
- margin-right: 0.5rem;
- display: -webkit-inline-box;
- display: inline-flex;
-}
-.page-header
- .page-header-content
- .page-header-title
- .page-header-icon
- .feather {
- height: 1.75rem;
- width: 1.75rem;
-}
-.page-header .page-header-content .page-header-subtitle {
- line-height: normal;
- font-size: 1.15rem;
- margin: 0;
-}
-.page-header.page-header-dark .page-header-title {
- color: #fff;
-}
-.page-header.page-header-dark .page-header-title .page-header-icon {
- color: rgba(255, 255, 255, 0.5);
-}
-.page-header.page-header-dark .page-header-subtitle {
- color: rgba(255, 255, 255, 0.5);
-}
-.custom-control label {
- cursor: pointer;
- margin: 0.25rem 0;
-}
-.custom-control label:hover:before {
- background-color: #e3e6ec;
-}
-.custom-control
- .custom-control-input:disabled:checked
- ~ .custom-control-label::before {
- background-color: #e3e6ec;
- border-color: #d7dce3;
-}
-.custom-control .custom-control-input:disabled ~ .custom-control-label {
- color: #a2acba;
- cursor: not-allowed;
-}
-.custom-control-solid label:before {
- background-color: #ecf0f6;
- border-color: #ecf0f6;
-}
-.custom-control-solid label:hover:before {
- background-color: #c9d5e6;
- border-color: #c9d5e6;
-}
-.custom-control-solid
- .custom-control-input:disabled
- ~ .custom-control-label::before {
- background-color: #f6f8fb;
- border-color: #f6f8fb;
-}
-.custom-control-solid
- .custom-control-input:disabled:checked
- ~ .custom-control-label::before {
- background-color: #f6f8fb;
- border-color: #f6f8fb;
-}
 .form-control-solid {
  background-color: #ecf0f6;
  border-color: #ecf0f6;
@@ -433,52 +229,6 @@ textarea.form-control {
 .nav-sticky .nav-link {
  padding-top: 0.25rem;
  padding-bottom: 0.25rem;
-}
-.feather {
- height: 1rem;
- width: 1rem;
- vertical-align: top;
-}
-.sbp-preview {
- border-radius: 0.35rem;
- border: 0.25rem solid #e3e6ec;
- border-style: solid;
-}
-.sbp-preview .sbp-preview-content {
- padding: 1.5rem;
- border-bottom: 1px solid #e3e6ec;
- position: relative;
-}
-.sbp-preview .sbp-preview-code {
- background-color: #eff3f9;
- padding: 1.5rem;
- border-bottom: 1px solid #e3e6ec;
-}
-.sbp-preview .sbp-preview-code .nav-tabs {
- border-bottom-color: transparent;
- font-size: 0.75rem;
- font-weight: 500;
-}
-.sbp-preview .sbp-preview-code .nav-tabs .nav-item .nav-link {
- border-bottom: 0;
- display: -webkit-inline-box;
- display: inline-flex;
- -webkit-box-align: center;
- align-items: center;
-}
-.sbp-preview .sbp-preview-code .nav-tabs .nav-item .nav-link.active {
- border-color: transparent;
- background-color: #2f2f2f;
- color: white;
-}
-.sbp-preview .sbp-preview-code .nav-tabs .nav-item .nav-link .img-pug {
- height: 1em;
- padding: 1px 0;
-}
-.sbp-preview .sbp-preview-text {
- background-color: #eff3f9;
- font-size: 0.875rem;
- padding: 1.5rem;
 }
 code[class*="language-"],
 pre[class*="language-"] {
@@ -543,10 +293,6 @@ pre[class*="language-"] {
 /*! right sav */
 /*! CSS Used from: https://themes.startbootstrap.com/sb-admin-pro/css/styles.css */
 
-ul {
- margin-top: 0;
- margin-bottom: 1rem;
-}
 a:hover {
  color: #0042a6;
  text-decoration: underline;
@@ -571,9 +317,7 @@ a:hover {
 .nav-sticky .nav-link.active {
  font-weight: 600;
 }
-nav.navbar.navbar-expand.navbar-light.bg-white.topbar.mb-4.static-top.shadow {
- margin-bottom: 0px !important;
-}
+
 
 /*! CSS Used from: https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons */
 .material-icons {
@@ -591,193 +335,10 @@ nav.navbar.navbar-expand.navbar-light.bg-white.topbar.mb-4.static-top.shadow {
  -webkit-font-feature-settings: "liga";
  -webkit-font-smoothing: antialiased;
 }
-.card .card-header.card-header-tabs .nav-tabs-title {
- float: left;
- padding: 10px 10px 10px 0;
- line-height: 24px;
-}
-.card .card-header.card-header-tabs .nav-tabs {
- background: transparent;
- padding: 0;
-}
-.card .card-header .nav-tabs {
- padding: 0;
-}
-.nav-tabs {
- border: 0;
- border-radius: 3px;
- padding: 0 15px;
-}
-.nav-tabs {
- border-bottom: 1px solid #dee2e6;
-}
-
-ul.nav.nav-tabs {
- border-bottom: 0px !important;
-}
 
 /*! CSS Used from: http://i.jobkorea.kr/content/css/ver_2/mtc/mtc_common-sv-202006181650.css */
 
-button {
- font-size: 12px;
-}
-li {
- list-style: none;
-}
-button {
- border: 0 none;
-}
-em {
- font-weight: normal;
- font-style: normal;
-}
-button {
- vertical-align: middle;
-}
-button {
- overflow: visible;
- background: transparent;
- cursor: pointer;
-}
 button::-moz-focus-inner {
  padding: 0;
  border: 0;
-}
-button {
- font-family: "맑은 고딕", Malgun Gothic, "돋움", Dotum, sans-serif;
-}
-.btnMtcTpl_1 span {
- color: #888;
-}
-.tahoma {
- font-family: tahoma, sans-serif;
- letter-spacing: 0;
-}
-
-.inner {
- display: table;
- position: relative;
- table-layout: fixed;
- box-sizing: border-box;
- width: 100%;
- padding: 25px 0 27px;
- min-height: 125px;
-}
-
-.jobTitWrap {
- /*position: relative;
- vertical-align: middle;
- padding: 0 20px;*/
-}
-.jobTitWrap .infoBx {
- display: block;
- color: #888;
- margin-bottom: 9px;
-}
-.jobTitWrap .infoBx .name:before {
- content: "";
- display: inline-block;
- font-size: 10px;
- width: 1px;
- height: 10px;
- background-color: #ccc;
- margin: -2px 9px 0 8px;
- vertical-align: middle;
-}
-.jobTitWrap .tit {
- overflow: hidden;
- display: inline-block;
-
- color: #000;
- max-width: 606px;
- padding-right: 2px;
- text-overflow: ellipsis;
- white-space: nowrap;
- letter-spacing: -2px;
-}
-.jobTitWrap .tit .used {
- color: #ff5b5b;
-}
-
-.apyStatusBoard {
- display: block;
- width: 100%;
- vertical-align: top;
- margin-top: 6px;
-}
-.apyStatusBoard .tbDate {
- font-size: 13px;
- color: #888;
- padding: 0 20px 0 23px;
- vertical-align: top;
-}
-.apyStatusBoard .tbDate {
- font-size: 13px;
- color: #888;
- padding: 0 20px 0 23px;
- vertical-align: top;
-}
-.apyStatusBoard .tbDate .mday:before {
- content: "";
- display: inline-block;
- font-size: 10px;
- width: 1px;
- height: 10px;
- background-color: #ccc;
- margin: -2px 9px 0 8px;
- vertical-align: middle;
-}
-.apyStatusBoard .boardItem {
- display: table;
- width: 100%;
-}
-.apyStatusBoard .boardItem li {
- display: table-cell;
- width: 20%;
- vertical-align: middle;
- text-align: center;
- position: relative;
-}
-.apyStatusBoard .boardItem li .stepTit {
- display: block;
- font-size: 12px;
- color: #999;
- padding-bottom: 7px;
- font-weight: normal;
-}
-.apyStatusBoard .boardItem li .itemNum {
- font-size: 22px;
- color: #888;
-}
-.apyStatusBoard .boardItem li:after {
- content: "";
- display: block;
- width: 1px;
- height: 46px;
- background-color: #efefef;
- position: absolute;
- top: 50%;
- left: 0;
- margin-top: -22px;
-}
-.apyStatusBoard .boardItem li.on .itemNum {
- color: #3399ff;
-}
-.apyStatusBoard .boardItem li .itemNum {
- font-size: 22px;
- color: #888;
-}
-.btnFunc .btnMtcTpl_1 {
- vertical-align: top;
-}
-.btnMtcTpl_1 span {
- color: #888;
-}
-.btnFunc {
- padding-top: 25px;
- padding-left: 20px;
-}
-
-.btnFunc > a {
- margin-right: 5px;
 }
