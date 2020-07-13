@@ -17,7 +17,7 @@ public class SwaggerConfiguration {
 	@Bean
 	public Docket swaggerApi() {
 		return new Docket(DocumentationType.SWAGGER_2).apiInfo(swaggerInfo()).select()
-				.apis(RequestHandlerSelectors.basePackage("kr.co.teamfresh.cpft.carrier.web.backend.controller.v1")).paths(PathSelectors.any()).build()
+				.apis(RequestHandlerSelectors.basePackage("kr.co.teamfresh.cpft.admin.web.backend.controller.v1")).paths(PathSelectors.any()).build()
 				.useDefaultResponseMessages(false); // 기본으로 세팅되는 200,401,403,404 메시지를 표시 하지 않음
 	}
 

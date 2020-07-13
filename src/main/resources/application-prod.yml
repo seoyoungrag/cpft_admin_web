@@ -4,7 +4,7 @@ logging:
     path: /logs/cpft_admin_web
   level:
     root: info
-    kr.co.teamfresh.cpft.carrier.web.backend: debug
+    kr.co.teamfresh.cpft.admin.web.backend: debug
     org.hibernate:
       sql: debug
 #      type.descriptor.sql: trace
